@@ -1,0 +1,18 @@
+@import "~../node_modules/normalize.css/normalize";
+@import "styles/roboto.css";
+
+body {
+    font-family: Roboto sans-serif;
+}
+
+h1 {
+    color: darkblue;
+}
+
+.logo {
+    background-image: url("assets/logo/webpack_logo.png");
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
